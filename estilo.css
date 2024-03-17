@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.widget-contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.icone {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #a22; /* Vermelho escuro para combinar com o menu */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.icone:hover {
+    background-color: #d33; /* Um tom mais claro de vermelho para o hover */
+}
+
+/* Estilos para o seletor de idioma */
+.language-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.language-icon {
+    text-decoration: none;
+    color: #a22; /* Vermelho escuro para combinar com o menu */
+    font-size: 20px;
+}
+
+.language-icon:hover {
+    color: #d33; /* Um tom mais claro de vermelho para o hover */
+}
+
+/* Cores personalizadas para ícones de contato específicos, se necessário */
+.whatsapp { background-color: #25d366; }
+.instagram { background-color: #e1306c; }
+.localizacao { background-color: #a22; }
+.telefone { background-color: #34b7f1; }
