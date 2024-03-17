@@ -27,7 +27,12 @@
     window.onload = function() {
         var links = document.querySelectorAll('a');
         links.forEach(function(link) {
-            link.target = "_parent";
+            // Aqui você garante que todos os links, exceto 'tel:', sejam abertos no contexto pai.
+            if (link.href.startsWith('tel:')) {
+                link.target = "_self";
+            } else {
+                link.target = "_parent";
+            }
         });
     };
 </script>
