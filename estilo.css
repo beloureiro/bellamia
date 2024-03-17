@@ -13,18 +13,18 @@ body {
 .icone {
     display: inline-block;
     padding: 10px;
-    border-radius: 50%;
-    color: #fff;
-    background-color: #a22; /* Vermelho escuro para combinar com o menu */
+    border-radius: 8px; /* Bordas ligeiramente arredondadas */
+    color: #a22; /* Vermelho do seu menu */
     text-decoration: none;
     font-size: 24px;
+    background-color: transparent; /* Fundo transparente */
 }
 
 .icone:hover {
-    background-color: #d33; /* Um tom mais claro de vermelho para o hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Efeito suave ao passar o mouse */
 }
 
-/* Estilos para o seletor de idioma */
+/* Seletor de idioma */
 .language-selector {
     display: flex;
     justify-content: center;
@@ -33,17 +33,21 @@ body {
 }
 
 .language-icon {
+    padding: 5px 10px;
+    border-radius: 8px; /* Bordas ligeiramente arredondadas */
+    color: #a22; /* Vermelho do seu menu */
     text-decoration: none;
-    color: #a22; /* Vermelho escuro para combinar com o menu */
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent; /* Fundo transparente */
 }
 
 .language-icon:hover {
-    color: #d33; /* Um tom mais claro de vermelho para o hover */
+    color: #d33; /* Vermelho mais claro no hover */
 }
 
 /* Cores personalizadas para ícones de contato específicos, se necessário */
-.whatsapp { background-color: #25d366; }
-.instagram { background-color: #e1306c; }
-.localizacao { background-color: #a22; }
-.telefone { background-color: #34b7f1; }
+.whatsapp { color: #a22; }
+.instagram { color: #a22; }
+.localizacao { color: #a22; }
+.telefone { color: #a22; }
